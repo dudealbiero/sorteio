@@ -1,6 +1,6 @@
 # Sorteio de grupos
 
-Aplicativo local em React e TypeScript para cadastrar participantes, importar arquivos, sortear grupos, trocar integrantes e consultar o histórico persistido em SQLite. O backend Express segue MVC, com modelos, controladores e rotas separados.
+Projeto de sorteio de participantes. Aplicativo local em React e TypeScript para cadastrar participantes, importar arquivos, sortear grupos, trocar integrantes e consultar o histórico persistido em SQLite. O backend Express segue MVC, com modelos, controladores e rotas separados.
 
 ## Requisitos
 
