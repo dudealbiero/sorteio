@@ -1,0 +1,40 @@
+{
+  "name": "sorteio-de-grupos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplicativo React e TypeScript de sorteio de grupos com API MVC e persistência em SQLite.",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run build:client && node server.js",
+    "dev": "vite --host 127.0.0.1",
+    "dev:api": "node --watch server.js",
+    "build:client": "vite build",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "npm run build:client && node --test"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "csv-parse": "^7.0.3",
+    "exceljs": "^4.4.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true
+  }
+}
